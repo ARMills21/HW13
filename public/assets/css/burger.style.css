@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightgray;
+}
+
+#burgerpic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+li {
+  padding: 5px;
+  background-color: white;
+}
+
+#burgersrow {
+  padding: 1rem;
+}
+
+#notdevoured {
+  outline: solid black thin;
+  background-color: white;
+  padding-right: 40px;
+}
+
+#devoured {
+  outline: solid black thin;
+  background-color: white;
+  padding-right: 40px;
+}
+
+#addburger {
+  font-size: large;
+}
